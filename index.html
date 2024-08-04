@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cargo Management System Information</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#"> <img src="images/logo2.png" alt="" /> </a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#credentials">Project</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <!-- <div class="hero-content">
+      <h1>Cargo Management System</h1>
+      <p>Optimize and manage your cargo operations with ease.</p>
+    </div> -->
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About the System</h2>
+        <p>
+          The Cargo Management System is a comprehensive solution for managing
+          cargo-related operations. Developed using a full-stack approach with
+          HTML, CSS, JavaScript, PHP, and SQL, this software provides a
+          user-friendly interface and robust functionality for handling various
+          aspects of cargo management.
+        </p>
+        <h3>Key Features</h3>
+        <h4>Super Admin Dashboard</h4>
+        <ul>
+          <li>
+            <strong>Exclusive Access:</strong> The Super Admin has complete
+            control over the system, with the ability to manage admin accounts,
+            view and delete invoices, and monitor overall system activities.
+          </li>
+          <li>
+            <strong>Admin Management:</strong> Add, update, or remove admin
+            users, ensuring that the right personnel have access to the system.
+          </li>
+          <li>
+            <strong>Invoice Monitoring:</strong> Access a detailed view of all
+            invoices, with options to delete as necessary.
+          </li>
+          <li>
+            <strong>Photo Capture:</strong> During the invoice creation process,
+            photos can be taken and are displayed on the Super Admin Dashboard
+            for verification and record-keeping.
+          </li>
+        </ul>
+        <h4>Admin Dashboard</h4>
+        <ul>
+          <li>
+            <strong>Invoice Creation & Management:</strong> Admins can
+            efficiently create and manage invoices, with tools to track the
+            status and details of each invoice.
+          </li>
+          <li>
+            <strong>Activity Overview:</strong> Provides an at-a-glance view of
+            admin activities, including the number of invoices created and other
+            relevant metrics.
+          </li>
+          <li>
+            <strong>Navigation Sidebar:</strong> A dedicated sidebar for easy
+            navigation, enabling quick access to essential features and
+            functions.
+          </li>
+        </ul>
+        <h4>Invoice Management</h4>
+        <p>
+          The system offers a streamlined process for managing invoices, from
+          creation to deletion. Super Admins can view all invoices, while Admins
+          have the tools to manage the invoices they create. The option to
+          capture and display photos during invoice creation adds an extra layer
+          of security and transparency.
+        </p>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+      <div class="container">
+        <h2>Features</h2>
+        <div class="feature-cards">
+          <div class="feature-card">
+            <img src="images/superad.png" alt="Super Admin Dashboard" />
+            <h3>Super Admin Dashboard</h3>
+            <p>
+              Exclusive access for the super admin to manage admins, view and
+              delete invoices, and monitor system activities.
+            </p>
+          </div>
+          <div class="feature-card">
+            <img src="images/admindash.png" alt="Admin Dashboard" />
+            <h3>Admin Dashboard</h3>
+            <p>
+              Admins can create and manage invoices, with an overview of their
+              activities and a dedicated sidebar for navigation.
+            </p>
+          </div>
+          <div class="feature-card">
+            <img src="images/view_invoice.png" alt="Invoice Management" />
+            <h3>Invoice Management</h3>
+            <p>
+              Efficiently manage and track invoices, with options to view and
+              delete by the super admin.
+            </p>
+          </div>
+          <div class="feature-card">
+            <img
+              src="https://via.placeholder.com/400x200"
+              alt="User-friendly Interface"
+            />
+            <h3>User-friendly Interface</h3>
+            <p>
+              Designed with a focus on simplicity and ease of use, providing a
+              seamless user experience.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+          <img
+            src="images/cargo-management.free.nf_add_admin.php.png"
+            alt="Image 1"
+            class="gallery-img"
+          />
+          <img
+            src="images/cargo-management.free.nf_super_admin_login.php.png"
+            alt="Image 4"
+            class="gallery-img"
+          />
+          <img
+            src="images/cargo-management.free.nf_view_invoice.php_invoice_id=23.png"
+            alt="Image 3"
+            class="gallery-img"
+          />
+          <img
+            src="images/cargo-management.free.nf_invoice.php.png"
+            alt="Image 2"
+            class="gallery-img"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+      <span class="close">&times;</span>
+      <img class="lightbox-content" id="lightbox-img" />
+    </div>
+
+    <!-- credentials sections -->
+    <section id="credentials" class="credentials">
+      <div class="container">
+        <h2>Login Credentials</h2>
+        <div class="credentials-content">
+          <div class="credentials-block">
+            <h3>Super Admin</h3>
+            <p><strong>Username:</strong> admin</p>
+            <p><strong>Password:</strong> Admin@1234</p>
+          </div>
+          <div class="credentials-block">
+            <h3>Admin</h3>
+            <p><strong>Username:</strong> marslanwajid</p>
+            <p><strong>Password:</strong> 1234</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="project-link" class="project-link">
+      <div class="container">
+        <a
+          href="http://cargo-management.free.nf/index.php"
+          class="btn btn-project"
+          target="_blank"
+          >Go to CMS</a
+        >
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>
+          &copy; 2024 Cargo Management System - Developed By
+          <a
+            href="https://pixelcodewizard.vercel.app"
+            target="_blank"
+            style="
+              text-decoration: none;
+              color: beige;
+              font-weight: bold;
+              text-shadow: 4px 4px 8px #d43737;
+            "
+          >
+            pixelcodewizard - marslanwajid
+          </a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
