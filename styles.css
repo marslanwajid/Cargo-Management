@@ -269,6 +269,21 @@ transition: background-color 0.3s ease;
 background-color: #ff3a1a;
 }
 
+
+.project-link #resume-btn{
+  padding: 20px 50px;
+  border: none;
+  background-color: #ff4b2b;
+  color: #fff;
+  font-size: 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+
+
+}
+
 /* Credentials Section Styles */
 .credentials {
   padding: 60px 0;
@@ -349,8 +364,5 @@ background-color: #ff3a1a;
 .feature-card,
 .gallery-grid img {
   width: 90%;
-}
-  .navbar .logo img{
-  margin-left: 0rem;
 }
 }
