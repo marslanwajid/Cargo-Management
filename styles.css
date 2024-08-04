@@ -309,6 +309,34 @@ background-color: #ff3a1a;
   line-height: 1.6;
 }
 
+/* Go to Top Button Styles */
+.go-top-btn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed position */
+  bottom: 20px; /* 20px from the bottom */
+  right: 30px; /* 30px from the right */
+  z-index: 100; /* Ensures the button is above other elements */
+  border: none; /* No border */
+  outline: none; /* No outline */
+  background-color: #007bff; /* Background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Pointer cursor */
+  width: 50px; /* Width of the button */
+  height: 50px; /* Height of the button */
+  border-radius: 50%; /* Circular shape */
+  font-size: 24px; /* Icon size */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  display: flex; /* Flexbox for centering */
+  align-items: center; /* Center icon vertically */
+  justify-content: center; /* Center icon horizontally */
+  
+}
+
+.go-top-btn:hover {
+  background-color: black; /* Darker shade on hover */
+}
+
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
