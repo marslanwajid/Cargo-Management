@@ -131,6 +131,7 @@ text-align: center;
 .feature-card img {
 max-width: 100%;
 border-radius: 10px;
+cursor: pointer;
 }
 
 .feature-card h3 {
@@ -159,6 +160,7 @@ width: calc(45% - 20px);
 border-radius: 10px;
 margin: 10px 0;
 transition: transform 0.3s ease;
+cursor: pointer;
 }
 
 .gallery-grid img:hover {
