@@ -48,3 +48,25 @@ goTopBtn.addEventListener('click', function() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
+
+
+// Resume Download JS
+
+document.getElementById('resume-btn').addEventListener('click', function() {
+  // The path to your CV file
+  const cvPath = 'sample_invoice.pdf';
+  
+  // Create a temporary anchor element
+  const link = document.createElement('a');
+  link.href = cvPath;
+  link.download = 'Sample Invoice.pdf'; // The filename to use for the downloaded file
+
+  // Append the anchor to the body
+  document.body.appendChild(link);
+  
+  // Trigger the download by programmatically clicking the anchor
+  link.click();
+  
+  // Remove the anchor from the document
+  document.body.removeChild(link);
+});
